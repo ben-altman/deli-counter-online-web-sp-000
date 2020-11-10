@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(array)
-  customers = []
+  #customers = []
   if array.length >= 1
     array.each_with_index do |value, index|
     puts "The line is currently: #{index}. #{name}"
