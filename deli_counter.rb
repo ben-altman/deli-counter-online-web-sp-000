@@ -6,7 +6,7 @@ def line(array)
     array.each_with_index do |name, index|
       customers.push ("#{index + 1}. #{name}")
     end
-    puts "The line is currently: #{customers.join}"
+    puts "The line is currently: #{customers.join(" ")}"
   else
     puts "The line is currently empty."
   end
